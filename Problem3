@@ -1,0 +1,18 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	char array[]="Ako si Karina Ramos";
+	int CharNum;
+	
+	cout << "Ako si Karina Ramos" << endl;
+	
+	for (CharNum = 18; CharNum >=0; CharNum--)
+		cout << array[CharNum];
+		
+	_getch();
+	return 0;
+}
