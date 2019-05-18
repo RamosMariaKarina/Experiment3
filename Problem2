@@ -1,0 +1,35 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int dayLoop[]={1, 2, 3, 4, 5, 6, 7};
+	double provA[7], provB[7], provC[7];
+	int day;
+	
+	cout << "Enter temperature of Province A for 7 days" << endl;
+	for (day = 0; day < 7; day++)
+		cin >> provA[day];
+		
+	cout << "Enter temperture of Province B for 7 days"	<< endl;
+	for (day = 0; day < 7; day++)
+		cin >> provB[day];
+		
+	cout << "Enter temperature of Province C for 7 days" << endl;
+	for (day = 0; day < 7; day++)
+		cin >> provC[day];
+		
+	for (day = 0; day < 7; day++)
+		cout << "Province A, Day " << dayLoop[day]<< " :" << provA[day] << endl;
+	
+	for (day = 0; day < 7; day++)
+		cout << "Province B, Day " << dayLoop[day]<< " :" << provB[day] << endl;
+	
+	for (day = 0; day < 7; day++)
+		cout << "Province C, Day " << dayLoop[day]<< " :" << provC[day] << endl;
+		
+	_getch();
+	return 0;	
+}
