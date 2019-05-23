@@ -21,7 +21,7 @@ int main()
 	
 	maxelements = Array[0];
 	for (elements = 0; elements < 10; elements++)
-		if (Array[maxelements] < Array[elements])
+		if (maxelements < Array[elements])
 			maxelements = Array[elements];
 	
 	minelements = Array[0];
